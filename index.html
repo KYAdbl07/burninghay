@@ -3,39 +3,44 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Burninghay — AI integration, web design, SaaS development, and game development. Coming soon." />
+  <meta name="robots" content="noindex" />
+
   <title>Burninghay</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #16110d;
-      color: #f5ead7;
-      font-family: Georgia, serif;
-      text-align: center;
-    }
 
-    main {
-      padding: 40px;
-    }
+  <link rel="icon" href="assets/images/burninghay-trans.png" type="image/png" />
 
-    h1 {
-      font-size: clamp(3rem, 10vw, 8rem);
-      margin: 0;
-      letter-spacing: 0.04em;
-    }
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet" />
 
-    p {
-      font-size: 1.25rem;
-      opacity: 0.85;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
+  <div id="embers" aria-hidden="true"></div>
+
   <main>
-    <h1>Burninghay</h1>
-    <p>Creative work in progress.</p>
+    <div class="logo-wrap">
+      <img
+        src="assets/images/burninghay-trans.png"
+        alt="Burninghay"
+        width="260"
+        height="260"
+      />
+    </div>
+
+    <h1 class="brand-name">BURNINGHAY</h1>
+
+    <div class="divider" aria-hidden="true">
+      <span class="divider-mark"></span>
+    </div>
+
+    <p class="tagline">Forged in fire. Built for the future.</p>
+
+    <p class="coming-soon">Coming Soon</p>
   </main>
+
+  <script src="js/embers.js"></script>
 </body>
 </html>
