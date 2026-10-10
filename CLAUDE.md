@@ -44,3 +44,7 @@ burninghay.com/
 ## Brand voice
 
 Minimal. Confident. Cinematic. Precise. See `design/brand-guide.md` for full copy guidelines.
+
+## Session log
+
+`memory.md` in the project root is a continuous log of work done across Claude sessions. **Read it at the start of every session** for context on what's been done and what's open, and **append a dated entry at the end of every session** summarising what was done, decisions made, and anything left unfinished.
